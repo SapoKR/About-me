@@ -14,6 +14,18 @@ jobs:
         
       - name: Install Dependencies
         run: yarn install
+            env:
+              CI: "" 
 
       - name: Build
         run: yarn build
+            env:
+              CI: "" 
+
+      - name: Deploy Pages
+        uses: moole100/About-me@master
+        env:
+          PERSONAL_TOKEN: ${{secrets.GH_PAT}}
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
+          SCRIPT_MODE: true
