@@ -25,5 +25,5 @@ jobs:
       - name: Deploy Pages
         uses: moole100/About-me@main
         with:
-          PERSONAL_TOKEN: ${{secrets.GH_PAT}}
-          PUBLISH_DIR: ./dist
+          PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
+          PUBLISH_DIR: ./build
