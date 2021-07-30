@@ -14,13 +14,13 @@ jobs:
         
       - name: Install Dependencies
         run: yarn install
-            env:
-              CI: "" 
+        env:
+          CI: "" 
 
       - name: Build
         run: yarn build
-            env:
-              CI: "" 
+        env:
+          CI: "" 
 
       - name: Deploy Pages
         uses: moole100/About-me@master
