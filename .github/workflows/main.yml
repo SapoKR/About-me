@@ -23,9 +23,7 @@ jobs:
           CI: "" 
 
       - name: Deploy Pages
-        uses: moole100/About-me@master
-        env:
+        uses: moole100/About-me@main
+        with:
           PERSONAL_TOKEN: ${{secrets.GH_PAT}}
-          PUBLISH_BRANCH: main
-          PUBLISH_DIR: ./public
-          SCRIPT_MODE: true
+          PUBLISH_DIR: ./dist
