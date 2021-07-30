@@ -23,8 +23,8 @@ jobs:
           CI: "" 
 
       - name: Deploy Pages
-        uses: moole100/About-me@master
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: main
           PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
-          PUBLISH_DIR: ./build
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
