@@ -28,4 +28,4 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./build
-          CNAME: moole100.me
+          CNAME: blog.moole100.me
