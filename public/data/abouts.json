@@ -1,0 +1,24 @@
+[
+    {
+      "card_bg": ["from-blue-400", "to-purple-500"],
+      "name": "SapoKR",
+      "profile": "/imgs/sapokr.png",
+      "role_description": "Created an About page.",
+      "information": "Don't open the developer console from this page",
+      "links": {
+        "discord": ["https://lookup.guru/244725552013901825"],
+        "twitter": ["https://x.com/Developer_Sapo"]
+      }
+    },
+    {
+      "card_bg": ["from-indigo-500", "to-indigo-900"],
+      "name": "PKT",
+      "profile": "/imgs/pkt.png",
+      "role_description": "Responsible for partial illustration of the error page",
+      "information": "I'm artist of this website",
+      "links": {
+        "discord": ["https://lookup.guru/949326409560637480"],
+        "twitter": ["https://x.com/PKTuniverse1"]
+      }
+    }
+]
